@@ -1,7 +1,7 @@
 <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
     <div class="logo">
       <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-        Creative Tim
+        Integration
       </a>
     </div>
     <div class="sidebar-wrapper">
@@ -15,7 +15,7 @@
         <li class="nav-item ">
           <a class="nav-link" href="./user.html">
             <i class="material-icons">person</i>
-            <p>User Profile</p>
+            <p>Users</p>
           </a>
         </li>
         <li class="nav-item ">
@@ -24,7 +24,7 @@
             <p>Table List</p>
           </a>
         </li>
-        <li class="nav-item ">
+        <!--<li class="nav-item ">
           <a class="nav-link" href="./typography.html">
             <i class="material-icons">library_books</i>
             <p>Typography</p>
@@ -48,7 +48,7 @@
             <p>Notifications</p>
           </a>
         </li>
-        <!-- <li class="nav-item active-pro ">
+         <li class="nav-item active-pro ">
               <a class="nav-link" href="./upgrade.html">
                   <i class="material-icons">unarchive</i>
                   <p>Upgrade to PRO</p>
