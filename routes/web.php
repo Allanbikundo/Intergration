@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Auth::routes();
 
@@ -23,6 +21,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/','PagesController@dashboard')->name('dashboard');
 Route::get('/dashboard','PagesController@dashboard')->name('dashboard');
 Route::get('/users','PagesController@users')->name('Users');
 Route::get('/tables','PagesController@tableList')->name('Tables');
