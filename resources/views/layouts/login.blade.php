@@ -11,6 +11,7 @@
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <!-- CSS Files -->
   <link href="{{ asset('css/material-dashboard.css')}}" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
@@ -31,6 +32,7 @@
     </div>
   </div>
   <!--   Core JS Files   -->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="{{ asset('js/core/jquery.min.js')}}" type="text/javascript"></script>
   <script src="{{ asset('js/core/popper.min.js')}}" type="text/javascript"></script>
   <script src="{{ asset('js/core/bootstrap-material-design.min.js')}}" type="text/javascript"></script>
