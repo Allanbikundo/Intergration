@@ -1,6 +1,6 @@
 <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
     <div class="logo">
-      <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+      <a href="/" class="simple-text logo-normal">
         Integration
       </a>
     </div>
@@ -24,12 +24,12 @@
             <p>Table List</p>
           </a>
         </li>
-        <!--<li class="nav-item ">
-          <a class="nav-link" href="./typography.html">
+        <li class="nav-item ">
+          <a class="nav-link" href="./fileUpload">
             <i class="material-icons">library_books</i>
-            <p>Typography</p>
+            <p>File Upload</p>
           </a>
-        </li>
+        <!--</li>
         <li class="nav-item ">
           <a class="nav-link" href="./icons.html">
             <i class="material-icons">bubble_chart</i>

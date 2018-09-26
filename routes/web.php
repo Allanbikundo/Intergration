@@ -26,3 +26,5 @@ Route::get('/dashboard','PagesController@dashboard')->name('dashboard');
 Route::get('/users','PagesController@users')->name('Users');
 Route::get('/tables','PagesController@tableList')->name('Tables');
 
+Route::get('/fileUpload','FileUploadController@fileUpload')->name('file.upload');
+Route::post('fileUpload', 'FileUploadController@FileUploadPost')->name('file.upload.post');
