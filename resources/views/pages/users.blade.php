@@ -8,8 +8,6 @@ $nav_users = 'nav-item active';
     <h2 class="header">Users</h2>
     
   </div>
-  
-
 <div class="container">
     <div class="card card-success">
         <div class="card-header">
