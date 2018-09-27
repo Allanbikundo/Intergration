@@ -32,7 +32,7 @@ class JsonController extends Controller
     // Get Key Value
 
     // dd(__('title'));
-
+   // dd(__('country.title'));
 
 
 

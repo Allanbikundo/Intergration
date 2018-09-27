@@ -8,22 +8,28 @@ $nav_users = 'nav-item active';
     <h2 class="header">JSON</h2>
     
   </div>
-<p>{{$data}}</p>
+<?php
+$data = json_decode($data , true); ?>
 
-<div class="container">
-        <table class="tabel">
-      <tr>
 
-        <td>
-            Data 1
-        </td>
-        <td>
-                Data 2
-            </td>
-            <td>
-                    Data 3
-                </td>
-      </tr>
+<div class="card-body">
+        <table class="table table-hover">
+     
+                <thead>
+                    
+                        <th>iHRIS</th>
+                  
+                        <th>DHIS2</th>
+                  
+                      </thead>
+                      <tbody>
+            @foreach ($data as $row)
+            <tr>
+            <td>{{ $row['ihris']}}</td> 
+            <td>{{ $row['dhis2']}}</td> 
+            </tr>
+         @endforeach
+                      </tbody>
             </table>
 </div>
 
