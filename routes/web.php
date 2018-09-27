@@ -25,4 +25,5 @@ Route::get('/','PagesController@dashboard')->name('dashboard');
 Route::get('/dashboard','PagesController@dashboard')->name('dashboard');
 Route::get('/users','PagesController@users')->name('Users');
 Route::get('/tables','PagesController@tableList')->name('Tables');
+Route::resource('pages','ShowUsers');
 
