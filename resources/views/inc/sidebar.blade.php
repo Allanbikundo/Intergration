@@ -1,8 +1,7 @@
 <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
     <div class="logo">
-      <a href="/" class="simple-text logo-normal">
         Integration
-      </a>
+      
     </div>
     <div class="sidebar-wrapper">
       <ul class="nav">
@@ -12,6 +11,7 @@
             <p>Dashboard</p>
           </a>
         </li>
+
         <li class="{{ $nav_users ?? ''  }}">
           <a class="nav-link" href="./users">
             <i class="material-icons">person</i>
@@ -21,7 +21,7 @@
         <li class="{{ $nav_tableList ?? ''  }}">
           <a class="nav-link" href="./tables">
             <i class="material-icons">content_paste</i>
-            <p>Table List</p>
+            <p>Audit Logs</p>
           </a>
         </li>
         <li class="{{ $nav_fileUpload ?? ''  }}">
