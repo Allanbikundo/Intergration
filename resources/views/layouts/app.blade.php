@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="{{ asset('css/material-dashboard.css')}}" rel="stylesheet" />
+  <link href="{{ asset('css/app.css')}}" rel="stylesheet" />
+
   <!-- CSS Just for demo purpose, don't include it in your project -->
   {{-- <link href="demo/demo.css" rel="stylesheet" /> --}}
 </head>
