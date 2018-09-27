@@ -1,41 +1,42 @@
 <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
     <div class="logo">
-      <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+      <a href="/" class="simple-text logo-normal">
         Integration
       </a>
     </div>
     <div class="sidebar-wrapper">
       <ul class="nav">
-        <li class="nav-item active  ">
-          <a class="nav-link" href="./dashboard">
+        <li class="{{ $nav_dashboard ?? '' }}">
+          <a class="nav-link" href="/dashboard">
             <i class="material-icons">dashboard</i>
             <p>Dashboard</p>
           </a>
         </li>
-        <li class="nav-item ">
+        <li class="{{ $nav_users ?? ''  }}">
           <a class="nav-link" href="./users">
             <i class="material-icons">person</i>
             <p>Users</p>
           </a>
         </li>
-        <li class="nav-item ">
+        <li class="{{ $nav_tableList ?? ''  }}">
           <a class="nav-link" href="./tables">
             <i class="material-icons">content_paste</i>
             <p>Table List</p>
           </a>
         </li>
-        <!--<li class="nav-item ">
-          <a class="nav-link" href="./typography.html">
+        <li class="{{ $nav_fileUpload ?? ''  }}">
+          <a class="nav-link" href="./fileUpload">
             <i class="material-icons">library_books</i>
-            <p>Typography</p>
+            <p>File Upload</p>
           </a>
         </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="./icons.html">
+        <li class="{{$nav_addData ?? '' }}">
+          <a class="nav-link" href="/addData">
             <i class="material-icons">bubble_chart</i>
-            <p>Icons</p>
+            <p>Add Data</p>
           </a>
         </li>
+        <!--
         <li class="nav-item ">
           <a class="nav-link" href="./map.html">
             <i class="material-icons">location_ons</i>
