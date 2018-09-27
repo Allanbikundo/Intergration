@@ -772,6 +772,16 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+  .container-fluid-custom {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color:gray;
+    font-size: x-large;
+    
+     }
 
 .row {
   display: flex;
@@ -3278,7 +3288,61 @@ tbody.collapse.show {
     color: #ffffff; }
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #ffffff; }
-
+      .card-custom {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color:white;
+        color:rgb(165, 6, 6);
+        background-clip: border-box;
+        border: 1px solid #eeeeee;
+        border-radius: 0.25rem; }
+        .card-custom1 {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          min-width: 0;
+          word-wrap: break-word;
+          background-color:white;
+          color:rgb(2, 56, 2);
+          background-clip: border-box;
+          border: 1px solid #eeeeee;
+          border-radius: 0.25rem; }
+          .card-custom2 {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color:white;
+            color:blue;
+            background-clip: border-box;
+            border: 1px solid #eeeeee;
+            border-radius: 0.25rem; }
+            .card-custom3 {
+              position: relative;
+              display: flex;
+              flex-direction: column;
+              min-width: 0;
+              word-wrap: break-word;
+              background-color:white;
+              color:purple;
+              background-clip: border-box;
+              border: 1px solid #eeeeee;
+              border-radius: 0.25rem; }
+              .card-custom4 {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                min-width: 0;
+                word-wrap: break-word;
+                background-color:white;
+                color:orangered;
+                background-clip: border-box;
+                border: 1px solid #eeeeee;
+                border-radius: 0.25rem; }
 .card {
   position: relative;
   display: flex;
@@ -3315,9 +3379,51 @@ tbody.collapse.show {
 
 .card-link:hover {
   text-decoration: none; }
-
+.big{
+  font-size: x-large;
+}
 .card-link + .card-link {
   margin-left: 1.25rem; }
+  .card-header-custom {
+    padding: 0.75rem 0.75rem;
+    margin-bottom: 0;
+    background-color: white;
+    color:red;
+    border-bottom: 3px solid red;
+  border-top:3px solid red;
+}
+.card-header-custom1 {
+  padding: 0.75rem 0.75rem;
+  margin-bottom: 0;
+  background-color: white;
+  color:green;
+  border-bottom: 3px solid green;
+border-top:3px solid green;
+}
+.card-header-custom2 {
+  padding: 0.75rem 0.75rem;
+  margin-bottom: 0;
+  background-color: white;
+  color:blue;
+  border-bottom: 3px solid blue;
+border-top:3px solid blue;
+}
+.card-header-custom3 {
+  padding: 0.75rem 0.75rem;
+  margin-bottom: 0;
+  background-color: white;
+  color:purple;
+  border-bottom: 3px solid purple;
+border-top:3px solid purple;
+}
+.card-header-custom4 {
+  padding: 0.75rem 0.75rem;
+  margin-bottom: 0;
+  background-color: white;
+  color:orangered;
+  border-bottom: 3px solid orangered;
+border-top:3px solid orangered;
+}
 
 .card-header {
   padding: 0.75rem 1.25rem;
@@ -3331,8 +3437,39 @@ tbody.collapse.show {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: #fff;
-  border-top: 1px solid #eeeeee; }
+  background-color:#fff;
+  border-top: 1px solid #eeeeee;
+   }
+.card-footer-custom {
+  padding: 0.75rem 1.25rem;
+  background-color:white;
+  border-top: 1px solid #eeeeee;
+  color:red;
+text-align: right; }
+.card-footer-custom1 {
+  padding: 0.75rem 1.25rem;
+  background-color:white;
+  border-top: 1px solid #eeeeee;
+  color:green;
+text-align: right; }
+.card-footer-custom2 {
+  padding: 0.75rem 1.25rem;
+  background-color:white;
+  border-top: 1px solid #eeeeee;
+  color:blue;
+text-align: right; }
+.card-footer-custom3 {
+  padding: 0.75rem 1.25rem;
+  background-color:white;
+  border-top: 1px solid #eeeeee;
+  color:purple;
+text-align: right; }
+.card-footer-custom4 {
+  padding: 0.75rem 1.25rem;
+  background-color:white;
+  border-top: 1px solid #eeeeee;
+  color:orangered;
+text-align: right; }
   .card-footer:last-child {
     border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
 
@@ -9416,7 +9553,9 @@ fieldset[disabled] .form-group .form-control {
 
 .navbar.navbar-transparent {
   padding-top: 10px; }
-
+.nav-item:active{
+  color: indigo;
+}
 .navbar .collapse .navbar-nav .nav-item .nav-link {
   position: relative;
   padding: 10px 15px;
