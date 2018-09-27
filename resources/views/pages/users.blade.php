@@ -14,7 +14,7 @@ $nav_users = 'nav-item active';
               <div class="card">
                 <div class="card-header card-header-warning">
                   <h4 class="card-title ">Users</h4>
-                  <p class="card-category"> </p>
+                  <p class="card-category">View users and a summary of their channel </p>
                 </div>
                 <div class="card-body">
                   <div class="table-responsive">
