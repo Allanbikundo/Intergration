@@ -1,3 +1,4 @@
+<?php $nav_dashboard = 'nav-item active';?>
 @extends('layouts.app')
 
 @section('content')

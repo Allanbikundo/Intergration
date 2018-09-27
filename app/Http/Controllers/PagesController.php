@@ -17,4 +17,8 @@ class PagesController extends Controller
     public function tableList(){
         return view('pages/tableList');
     }
+
+    public function addData(){
+        return view('pages/addData');
+    }
 }

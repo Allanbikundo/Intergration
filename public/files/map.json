@@ -1,0 +1,93 @@
+[{
+    "ihris": "id",
+    "dhis2": "uid",
+    "dhis2id": ""
+}, {
+    "ihris": "iHRIS Clinical Officers",
+    "dhis2": "iHRIS Clinical Officers",
+    "dhis2id": null
+}, {
+    "ihris": "sd",
+    "dhis2": "sd",
+    "dhis2id": "sd"
+}, {
+    "ihris": "iHRIS Clinical Officers",
+    "dhis2": "iHRIS Clinical Officers",
+    "dhis2id": null
+}, {
+    "ihris": "iHRIS VCT Counselors",
+    "dhis2": "iHRIS VCT Counselors",
+    "dhis2id": "r28Er1lTKaU"
+}, {
+    "ihris": "iHRIS Clinical Officers",
+    "dhis2": "iHRIS Clinical Officers",
+    "dhis2id": null
+}, {
+    "ihris": "iHRIS Support staff",
+    "dhis2": "iHRIS Support staff",
+    "dhis2id": "x0EkQIEo5DY"
+}, {
+    "ihris": "iHRIS Rehabilitative staff",
+    "dhis2": "iHRIS Rehabilitative staff",
+    "dhis2id": "l7o8TCKR8Bh"
+}, {
+    "ihris": "iHRIS Plaster Staff",
+    "dhis2": "iHRIS Plaster Staff",
+    "dhis2id": "hiUEHJtC4fC"
+}, {
+    "ihris": "iHRIS Pharmacy Staff",
+    "dhis2": "iHRIS Pharmacy Staff",
+    "dhis2id": "Qyars9czmtz"
+}, {
+    "ihris": "iHRIS Community Health Service Staff",
+    "dhis2": "IHRIS Community Health Service Personnel(CHSP)",
+    "dhis2id": "jZrkMKMlVzn"
+}, {
+    "ihris": "iHRIS Nutrition staff",
+    "dhis2": "iHRIS Nutrition staff",
+    "dhis2id": "jVCpYhSPfrB"
+}, {
+    "ihris": "iHRIS Dental staff",
+    "dhis2": "iHRIS Dental staff",
+    "dhis2id": "GsPMTVceX0n"
+}, {
+    "ihris": "iHRIS Nurses and specialist nurses",
+    "dhis2": "iHRIS Nurses and specialist nurses",
+    "dhis2id": "XB8W3lRwnpH"
+}, {
+    "ihris": "iHRIS Diagnostics & Imaging",
+    "dhis2": "iHRIS Diagnostics & Imaging",
+    "dhis2id": "dfxZYAHibAr"
+}, {
+    "ihris": "iHRIS Environmental Health staff",
+    "dhis2": "iHRIS Environmental Health staff",
+    "dhis2id": "n0eE7sI579Z"
+}, {
+    "ihris": "iHRIS Health Administrative staff",
+    "dhis2": "iHRIS Health Administrative staff",
+    "dhis2id": "wSdtbjv9kQr"
+}, {
+    "ihris": "iHRIS Health Information ICT",
+    "dhis2": "iHRIS Health Information ICT",
+    "dhis2id": "jPRylm43Ai1"
+}, {
+    "ihris": "iHRIS Medical Social Work",
+    "dhis2": "iHRIS Medical Social Work",
+    "dhis2id": "vG4gTXFcn37"
+}, {
+    "ihris": "iHRIS Health Promotion Officers",
+    "dhis2": "iHRIS Health Promotion Officers",
+    "dhis2id": "yNj6FkYTNlQ"
+}, {
+    "ihris": "iHRIS Hospital Maintenance Staff",
+    "dhis2": "iHRIS Hospital Maintenance Staff",
+    "dhis2id": "oADR3aRtIi3"
+}, {
+    "ihris": "iHRIS Medical Officers & Specialists",
+    "dhis2": "iHRIS Medical Officers & Specialists",
+    "dhis2id": "wYGLdPt9bY2"
+}, {
+    "ihris": "iHRIS Medical Laboratory Scientists",
+    "dhis2": "iHRIS Medical Laboratory Scientists",
+    "dhis2id": "ArckHJIRKwJ"
+}]
