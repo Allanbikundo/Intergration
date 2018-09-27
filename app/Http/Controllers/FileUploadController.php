@@ -50,13 +50,19 @@ class FileUploadController extends Controller
                             for ($i = 0; $i < sizeof($arr); $i++) {
                                 switch ($arr[$i]) {
                                     case 'ID':
+                                        
                                         $data = file_get_contents("files/map.json");
                                         $data = json_decode($data, true);
+                                        $i = 0;
                                         foreach ($data as $row) {
-                                            $noid = "<br><p>" . $row['ihris'] . " maps to " . $row['dhis2'] . "</p>";
-                                        }
+                                            if($noid == null){
+                                            $noid="<br><p>" . $row['ihris'] . " maps to " . $row['dhis2'] . "</p>";
+                                            }
+                                            $noid."<br><p>" . $row['ihris'] . " maps to " . $row['dhis2'] . "</p>";
+                                        }   
                                         return back()
-                                                ->with('success', 'it works csv switch' . $noid);
+                                                ->with('success', $noid);
+                                                //->with('');
                                     case 'name':
                                        // mapName();
                                         break;

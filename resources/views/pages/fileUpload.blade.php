@@ -1,3 +1,4 @@
+<?php $nav_fileUpload = 'nav-item active'; ?>
 @extends('layouts.app')
 @section('content')
     <div class="panel panel-primary">
