@@ -32,7 +32,7 @@
         </li>
         <li class="{{$nav_addData ?? '' }}">
           <a class="nav-link" href="/addData">
-            <i class="material-icons">bubble_chart</i>
+            <i class="material-icons">add</i>
             <p>Add Data</p>
           </a>
         </li>

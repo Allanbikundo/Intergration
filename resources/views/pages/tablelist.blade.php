@@ -33,9 +33,7 @@
                         <th>
                          Source ID
                         </th>
-                        <th>
-                         Event Type
-                        </th>
+                        
                       </thead>
                       <tbody>
                         <tr>
@@ -43,20 +41,18 @@
                            1
                           </td>
                           <td>
-                           ########
+                           Execute(E)/Success
                           </td>
                           <td>
-                          ########
+                          Login
                           </td>
                           <td>
-                          ########
+                          1112234-User Authenticated
                           </td>
                           <td>
-                          ########
+                          Integration
                           </td>
-                          <td >
-                          ########
-                          </td>
+                          
                         </tr>
                         
                       </tbody>

@@ -105,39 +105,23 @@
                           REQUEST TIME
                         </th>
                         <th>
-                         REQUEST PARAMETERS
-                        </th>
-                        <th>
                           STATUS
                         </th>
                       </thead>
                       <tbody>
                         <tr>
-                        <td>
-                           1
-                          </td>
-                          <td>
-                           ########
-                          </td>
-                          <td>
-                          ########
-                          </td>
-                          <td>
-                          ########
-                          </td>
-                          <td>
-                          ########
-                          </td>
-                          <td >
-                          ########
-                          </td>
+                        
                         </tr>
                         
                       </tbody>
+
                     </table>
                   </div>
                 </div>
+                <i class="material-icons">info</i>No Transactions Available
               </div>
+              <button type="button"  title="Load More results" class="btn btn-primary btn-link btn-md">
+                                <i class="material-icons">cached</i>Load more results</button>
             </div>
 
 
