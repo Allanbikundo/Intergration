@@ -3434,6 +3434,14 @@ border-top:3px solid orangered;
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
   .card-header + .list-group .list-group-item:first-child {
     border-top: 0; }
+.card-headerlogin {
+    color:whitesmoke; 
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 4px;
+    background-color: purple;;
+    border: 10px solid purple;
+    text-align: center;
+     }
 
 .card-footer {
   padding: 0.75rem 1.25rem;
@@ -13159,5 +13167,50 @@ Copyright (c) 2015 Daniel Eden
   .nav-mobile-menu,
   .sidebar .navbar-form {
     display: none !important; } }
+
+/*new code */
+.loginbox{
+	margin-top:50px;
+}
+.forgot-password{
+	float:right; 
+	font-size: 90%; 
+	position: relative; 
+  top:-10px;
+  background-color: transparent;}
+  .forgot-password:hover {
+    color: #0a6ebd;
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent; }
+  .forgot-password:focus, .forgot-password.focus {
+    text-decoration: underline;
+    border-color: transparent;
+    box-shadow: none; }
+  
+.panel-pad{
+	padding-top:30px;
+}
+.login-alert{
+	display:none;
+}
+.margT25{
+	margin-bottom: 25px;
+}
+.margT10{
+	margin-top:10px;
+}
+.margL10{
+	padding-left: 25px;
+}
+.no-acc{
+	border-top: 1px solid#888; padding-top:15px; font-size:95%; text-align:center;
+}
+.signup-box{
+	display:none; margin-top:50px;
+}
+.signin{
+	float:right; font-size: 85%; position: relative; top:-10px;
+}
 
 /*# sourceMappingURL=material-dashboard.css.map */
