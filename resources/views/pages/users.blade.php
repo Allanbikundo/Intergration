@@ -1,6 +1,14 @@
+<?php 
+$nav_users = 'nav-item active'; 
+?>
 @extends('layouts.app')
 
 @section('content')
+<div class="col s12 m7">
+    <h2 class="header">Users</h2>
+    
+  </div>
+  
 
 <div class="container">
     <div class="card card-success">
