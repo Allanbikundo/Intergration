@@ -32,3 +32,4 @@ Route::get('/addData','PagesController@addData')->name('AddData');
 
 Route::get('/fileUpload','FileUploadController@fileUpload')->name('file.upload');
 Route::post('fileUpload', 'FileUploadController@FileUploadPost')->name('file.upload.post');
+Route::get('/json', 'JsonController@json');
