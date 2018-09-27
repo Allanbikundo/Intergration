@@ -47,12 +47,20 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>sad</td>
-                  <td>Dakota Rice</td>
+                  <td>iHRIS Clinical Officers</td>
+                  <td>iHRIS Clinical Officers</td>
                 </tr>
                 <tr>
-                  <td>2</td>
-                  <td>Minerva Hooper</td>
+                  <td>iHRIS Support staff</td>
+                  <td>iHRIS Support staff</td>
+                </tr>
+                <tr>
+                <td>iHRIS Plaster Staff</td>
+                <td>iHRIS Plaster Staff</td>
+                </tr>
+                <tr>
+                <td>iHRIS Community Health Service Staff</td>
+                <td>IHRIS Community Health Service Personnel(CHSP)</td>
                 </tr>
               </tbody>
             </table>

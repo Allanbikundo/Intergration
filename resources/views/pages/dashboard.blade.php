@@ -120,8 +120,7 @@
                 </div>
                 <i class="material-icons">info</i>No Transactions Available
               </div>
-              <button type="button"  title="Load More results" class="btn btn-primary btn-link btn-md">
-                                <i class="material-icons">cached</i>Load more results</button>
+              
             </div>
 
 
